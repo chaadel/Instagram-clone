@@ -1,3 +1,2 @@
-body {
-  background-color: red;
-}
+@import "css/reset.css";
+@import "css/global.css";
