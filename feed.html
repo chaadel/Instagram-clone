@@ -30,8 +30,37 @@
           </a>
       </div>
     </nav>
-    <main>
-
+    <main class="feed">
+      <article class="photo">
+        <header class="photo__header">
+          <img src="images/avatar.jpg" class="photo__avartar">
+          <span class="photo__username">adelaide.cha</span>
+        </header>
+        <img src="images/feedPhoto.jpg" class="photo__image">
+        <div class="photo__info">
+          <div class="photo__action">
+            <span class="photo__icon-container">
+              <i class="fa fa-heart-o fa-lg"></i>
+            </span>
+            <span class="photo__icon-container">
+              <i class="fa fa-comment-o fa-lg"></i>
+            </span>
+          </div>
+          <span class="photo__like">3,145 likes</span>
+          <div class="photo__comments">
+            <ul class="photo__comment">
+              <li class="photo__comment">
+                <span class="photo__comment-author">helloworld</span> wow, awesome!!
+              </li>
+            </ul>
+          </div>
+          <span class="photo__date">7 hours ago</span>
+          <div class="photo__add-comment">
+            <textarea placeholder="Add a comment..."></textarea>
+            <i class="fa fa-ellipsis-h"></i>
+          </div>
+        </div>
+      </article>
     </main>
     <footer>
       <nav class="footer__nav">
