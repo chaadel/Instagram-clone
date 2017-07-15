@@ -1,0 +1,93 @@
+.profile {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.profile__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 156px;
+  box-sizing: border-box;
+  margin-bottom: 45px;
+  max-width: 100%;
+}
+
+.profile__user-info {
+  margin-left: 96px;
+  width: 40%;
+}
+
+.profile__avatar {
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+}
+
+.profile__name {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  font-weight: 100;
+}
+
+.profile__edit-btn {
+  padding: 0 20px;
+}
+
+.profile__edit-btn button {
+  border: 0;
+  border-radius: 3px;
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6;
+  width: 128px;
+  height: 30px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.profile__counts {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.profile__stat {
+  display: inline;
+  font-size: 16px;
+  margin-right: 40px;
+}
+
+.profile__number {
+  font-weight: 700;
+}
+.profile__bio{
+  font-size: 16px;
+}
+.profile__bio a{
+  text-decoration: none;
+  color: inherit;
+}
+.profile__full-name{
+  font-weight: 700;
+}
+.profile__photos{
+  max-width: 100%
+}
+.profile__photo-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  min-width: 80%;
+}
+
+.profile__photo img{
+  max-width: 100%;
+
+}
