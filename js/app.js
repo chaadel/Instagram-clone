@@ -33,14 +33,24 @@
 // }
 
 $(document).ready(function(){
-  var $heart = $(".heart");
+  var $heart = $(".heart"),
+  $comment = $(".comment"),
+  $overlay = $(".profileOverlay"),
+  $cog = $(".fa-cog"),
+  $closeIcon = $(".fa-times");
   $heart.click(function() {
     $(this).toggleClass("fa-heart-o");
     $(this).toggleClass("fa-heart heart-click");
   });
-  var $comment = $(".comment");
   $comment.click(function() {
   $(this).toggleClass("fa-comment-o");
   $(this).toggleClass("fa-comment");
 });
+$cog.click(function() {
+  $overlay.fadeIn(500);
+});
+
+$times.click(function() {
+  $overlay.fadeIn(500);
+}
 });
