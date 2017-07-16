@@ -11,4 +11,26 @@ a {
 
 main {
   max-width: 1000px;
+  transform: rotate(0.3);
+}
+
+.profile__icon{
+  animation: 5s lemon infinite ease-in-out;
+}
+.explore__user button:active{
+  animation: 5s lemon infinite ease-in-out;
+}
+.explore__user button:focus{
+  opacity: 0;
+}
+.explore__user button:hover{
+  opacity: 0;
+}
+@keyframes lemon {
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(3turn);
+  }
 }
